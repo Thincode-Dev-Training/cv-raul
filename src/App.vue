@@ -1,56 +1,72 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
+    <v-card>
+      <v-navigation-drawer
+        app
+        expand-on-hover
+        permanent
+        height="800px"
+        width="300px"
       >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
+        <template v-slot:prepend>
+          <v-list>
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-img src="https://drive.google.com/file/d/11wEPCKIPfcjYFzYEV2BInI3hv6g3PuYN/view?usp=sharing"></v-img>
+              </v-list-item-avatar>
+            </v-list-item>
+
+            <v-list-item
+              link
+              two-line
+            >
+              <v-list-item-content>
+                <v-list-item-title class="title">Raul Alejandro Almanza Serrano</v-list-item-title>
+                <v-list-item-subtitle>ra.almanzaserrano@gmail.com</v-list-item-subtitle>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
+        </template>
+
+        <v-divider></v-divider>
+
+        <v-list
+          nav
+        >
+          <v-list-item link to="/">
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Home</v-list-item-title>
+          </v-list-item>
+          <v-list-item link to="/about">
+            <v-list-item-icon>
+              <v-icon>mdi-account</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>About me</v-list-item-title>
+          </v-list-item>
+          <v-list-item link to="/resume">
+            <v-list-item-icon>
+              <v-icon>mdi-account-badge-horizontal-outline</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Resume</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-navigation-drawer>
+    </v-card>
 
     <v-content>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
   },
 
   data: () => ({
