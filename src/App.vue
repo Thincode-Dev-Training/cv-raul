@@ -12,7 +12,7 @@
           <v-list>
             <v-list-item>
               <v-list-item-avatar>
-                <v-img src="https://drive.google.com/file/d/11wEPCKIPfcjYFzYEV2BInI3hv6g3PuYN/view?usp=sharing"></v-img>
+                <v-img src=""></v-img>
               </v-list-item-avatar>
             </v-list-item>
 
@@ -33,19 +33,19 @@
         <v-list
           nav
         >
-          <v-list-item link to="/">
+          <v-list-item color="#2CDA9D" link to="/">
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
-          <v-list-item link to="/about">
+          <v-list-item color="#2CDA9D" link to="/about">
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title>About me</v-list-item-title>
           </v-list-item>
-          <v-list-item link to="/resume">
+          <v-list-item color="#2CDA9D" link to="/resume">
             <v-list-item-icon>
               <v-icon>mdi-account-badge-horizontal-outline</v-icon>
             </v-list-item-icon>
