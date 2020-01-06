@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg" style="height: 100%">
     <h1>Resume</h1>
   </div>
 </template>
