@@ -35,8 +35,8 @@
               <v-btn icon outlined color="#DCE8E3" elevation="5" class="ml-3" href="https://www.facebook.com/AlejandroAlmanzaRully">
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
-              <v-btn icon outlined color="#DCE8E3" elevation="5" class="ml-3" href="https://www.instagram.com/rulialmanza/">
-                <v-icon>mdi-instagram</v-icon>
+              <v-btn icon outlined color="#DCE8E3" elevation="5" class="ml-3" href="https://www.linkedin.com/in/raul-alejandro-almanza-serrano-262727166/">
+                <v-icon>mdi-linkedin</v-icon>
               </v-btn>
             </v-col>
           </v-row>
