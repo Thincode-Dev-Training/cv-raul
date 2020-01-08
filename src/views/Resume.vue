@@ -27,13 +27,13 @@
           </v-timeline>
         </v-col>
         <v-col cols="12" md="6">
-          <v-chip label color="#F9F871" style="width: 100%" >
+          <v-chip label color="#F9F871" style="width: 100%">
             <v-icon class="mr-5">mdi-code-greater-than</v-icon>
             <h2>Coding skills</h2>
           </v-chip>
           <v-card class="elevation-2 mt-5">
             <v-card-text>
-              <v-chip label color="#F9F871" class="mt-5" >
+              <v-chip label color="#F9F871" class="my-5" >
                 <v-icon class="mr-3">mdi-script</v-icon>
                 Programming languages
               </v-chip>
@@ -46,12 +46,12 @@
                     :buffer-value="100"
                     :striped="true"
                     :value="lang.value*20"
-                    color="light-blue"
+                    color="#8F6F9B"
                     height="13px"
                   ></v-progress-linear>
                 </v-col>
               </v-row>
-              <v-chip label color="#F9F871" class="mt-5" >
+              <v-chip label color="#F9F871" class="my-5" >
                 <v-icon class="mr-3">mdi-database</v-icon>
                 Databases
               </v-chip>
@@ -64,12 +64,12 @@
                     :buffer-value="100"
                     :striped="true"
                     :value="db.value*20"
-                    color="light-blue"
+                    color="#8F6F9B"
                     height="13px"
                   ></v-progress-linear>
                 </v-col>
               </v-row>
-              <v-chip label color="#F9F871" class="mt-5" >
+              <v-chip label color="#F9F871" class="my-5" >
                 <v-icon class="mr-3">mdi-web</v-icon>
                 Web Frameworks
               </v-chip>
@@ -82,7 +82,7 @@
                     :buffer-value="100"
                     :striped="true"
                     :value="fw.value*20"
-                    color="light-blue"
+                    color="#8F6F9B"
                     height="13px"
                   ></v-progress-linear>
                 </v-col>
@@ -125,6 +125,7 @@
           </v-col>
         </v-row>
       </v-row>
+      <v-row style="height: 100px;"></v-row>
     </v-container>
   </div>
 </template>

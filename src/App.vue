@@ -17,10 +17,7 @@
               </v-list-item-avatar>
             </v-list-item>
 
-            <v-list-item
-              link
-              two-line
-            >
+            <v-list-item link two-line disabled>
               <v-list-item-content>
                 <v-list-item-title class="title">Raul Alejandro Almanza Serrano</v-list-item-title>
                 <v-list-item-subtitle>ra.almanzaserrano@gmail.com</v-list-item-subtitle>
@@ -31,9 +28,7 @@
 
         <v-divider></v-divider>
 
-        <v-list
-          nav
-        >
+        <v-list nav>
           <v-list-item color="#D8A31A" link to="/">
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>

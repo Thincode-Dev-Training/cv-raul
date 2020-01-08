@@ -22,20 +22,32 @@
         </v-col>
         <v-col cols="6" md="5">
           <v-divider class="mt-7 mb-5"></v-divider>
-          <p><u class="mr-5">Age:</u> {{age()}}</p>
-          <p><u class="mr-5">Residence:</u> Valle de Santiago, Gto. México</p>
-          <p><u class="mr-5">Email:</u> ra.almanzaserrano@gmail.com</p>
-          <p><u class="mr-5">Phone:</u> 4561146217</p>
+          <p>
+            <v-icon color="yellow" class="mr-2">mdi-cake-variant</v-icon>
+            <u class="mr-5">Age:</u> {{age()}}
+          </p>
+          <p>
+            <v-icon color="yellow" class="mr-2">mdi-map-marker-radius</v-icon>
+            <u class="mr-5">Residence:</u> Valle de Santiago, Gto. México
+          </p>
+          <p>
+            <v-icon color="yellow" class="mr-2">mdi-at</v-icon>
+            <u class="mr-5">Email:</u> ra.almanzaserrano@gmail.com
+          </p>
+          <p>
+            <v-icon color="yellow" class="mr-2">mdi-cellphone</v-icon>
+            <u class="mr-5">Phone:</u> 4561146217
+          </p>
           <v-row class="my-10">
-            <h3>Social media:</h3>
+            <h3 style="color: #F9F871;">Social media:</h3>
             <v-col cols="12">
-              <v-btn icon outlined color="#DCE8E3" href="https://github.com/Ruli-AlSe" elevation="5">
+              <v-btn icon outlined color="yellow" href="https://github.com/Ruli-AlSe" elevation="5">
                 <v-icon>mdi-github-circle</v-icon>
               </v-btn>
-              <v-btn icon outlined color="#DCE8E3" elevation="5" class="ml-3" href="https://www.facebook.com/AlejandroAlmanzaRully">
+              <v-btn icon outlined color="yellow" elevation="5" class="ml-3" href="https://www.facebook.com/AlejandroAlmanzaRully">
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
-              <v-btn icon outlined color="#DCE8E3" elevation="5" class="ml-3" href="https://www.linkedin.com/in/raul-alejandro-almanza-serrano">
+              <v-btn icon outlined color="yellow" elevation="5" class="ml-3" href="https://www.linkedin.com/in/raul-alejandro-almanza-serrano">
                 <v-icon>mdi-linkedin</v-icon>
               </v-btn>
             </v-col>
@@ -56,7 +68,7 @@
                     :buffer-value="100"
                     :striped="true"
                     :value="lang.value*20"
-                    color="light-blue"
+                    color="#8F6F9B"
                     height="13px"
                   ></v-progress-linear>
                 </v-col>
@@ -106,8 +118,12 @@ export default {
 </script>
 
 <style scoped>
-  h2, p{
+  h2 {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 25px;
+  }
+  u, p {
+    color: #F9F871;
+    font-size: 17px;
   }
 </style>
