@@ -5,8 +5,9 @@
         app
         expand-on-hover
         permanent
-        height="800px"
+        height="100%"
         width="300px"
+        :src="require('@/assets/scott.jpg')"
       >
         <template v-slot:prepend>
           <v-list>
@@ -33,19 +34,19 @@
         <v-list
           nav
         >
-          <v-list-item color="#33425F" link to="/">
+          <v-list-item color="#D8A31A" link to="/">
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
-          <v-list-item color="#33425F" link to="/about">
+          <v-list-item color="#D8A31A" link to="/about">
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title>About me</v-list-item-title>
           </v-list-item>
-          <v-list-item color="#33425F" link to="/resume">
+          <v-list-item color="#D8A31A" link to="/resume">
             <v-list-item-icon>
               <v-icon>mdi-account-badge-horizontal-outline</v-icon>
             </v-list-item-icon>

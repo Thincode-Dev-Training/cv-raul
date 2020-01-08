@@ -1,10 +1,7 @@
 <template>
   <div class="bg">
     <v-container>
-      <v-row style="height: 80px;">
-        <v-col cols="12">
-        </v-col>
-      </v-row>
+      <v-row style="height: 120px;"></v-row>
       <v-row>
         <v-col cols="12">
           <v-parallax :src="require('@/assets/scott.jpg')" >
@@ -12,7 +9,14 @@
               <v-col class="text-center" cols="12">
                 <h1>Raul Almanza</h1>
                 <v-card max-width="100%" tilek>
-                  <v-carousel cycle height="30px" width="100%" :show-arrows="false" hide-delimiters>
+                  <v-carousel
+                    cycle
+                    height="30px"
+                    width="100%"
+                    :show-arrows="false"
+                    hide-delimiters
+                    interval="2000"
+                  >
                     <v-carousel-item v-for="(desc, i) in descriptions" :key="i">
                       <v-sheet color="#B2EBF2" height="100%" >
                         <v-row class="fill-height" align="center" justify="center">
@@ -27,10 +31,7 @@
           </v-parallax>
         </v-col>
       </v-row>
-      <v-row style="height: 80px;">
-        <v-col cols="12">
-        </v-col>
-      </v-row>
+      <v-row style="height: 120px;"></v-row>
     </v-container>
   </div>
 </template>
@@ -58,6 +59,6 @@
   }
   .bg {
     height: 100%;
-    background-image: linear-gradient(to left bottom, #acecea, #abe3e9, #add9e5, #b0cfde, #b3c6d5);
+    background-image: linear-gradient(to left, #acecea, #b3c6d5);
   }
 </style>
