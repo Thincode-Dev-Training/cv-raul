@@ -41,13 +41,13 @@
           <v-row class="my-10">
             <h3 style="color: #F9F871;">Social media:</h3>
             <v-col cols="12">
-              <v-btn icon outlined color="yellow" href="https://github.com/Ruli-AlSe" elevation="5">
+              <v-btn icon outlined color="yellow" href="https://github.com/Ruli-AlSe" elevation="5" target="_blank" rel="noopener">
                 <v-icon>mdi-github-circle</v-icon>
               </v-btn>
-              <v-btn icon outlined color="yellow" elevation="5" class="ml-3" href="https://www.facebook.com/AlejandroAlmanzaRully">
+              <v-btn icon outlined color="yellow" elevation="5" class="ml-3" target="_blank" rel="noopener" href="https://www.facebook.com/AlejandroAlmanzaRully">
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
-              <v-btn icon outlined color="yellow" elevation="5" class="ml-3" href="https://www.linkedin.com/in/raul-alejandro-almanza-serrano">
+              <v-btn icon outlined color="yellow" elevation="5" class="ml-3" target="_blank" rel="noopener" href="https://www.linkedin.com/in/raul-alejandro-almanza-serrano">
                 <v-icon>mdi-linkedin</v-icon>
               </v-btn>
             </v-col>
